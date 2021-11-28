@@ -15,3 +15,9 @@ body {
 .titulo {
     background-color:darksalmon;
 }
+.tabela_de_licoes{
+    width:100%;
+}
+table, th, td {
+    border: 1px solid crimson;
+}
