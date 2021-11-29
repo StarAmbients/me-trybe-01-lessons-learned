@@ -39,6 +39,10 @@ body {
   border-radius: 8px;
 }
 
+img {
+  float: left;
+}
+
 /* top: 150px;
   position: absolute; 
   padding: 50px; iria ai abaixo> */
