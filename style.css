@@ -19,7 +19,6 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  /*background-color: seagreen;*/
   color:wheat;
   font-size: 18px;
   text-align: center;
@@ -28,13 +27,15 @@ body {
 
 #meu_avatar {
   display: block;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
+  position: absolute;
 }
 
 #minha_foto {
-  height: 200x;
+  height: 400x;
   border-radius: 8px;
 }
 
@@ -54,6 +55,7 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  overflow: hidden;
   background-color: #dddddd;
 }
 
@@ -63,29 +65,19 @@ body {
 
 #cabecalho .navegacao li a {
   display: block;
-  padding: 8px;
-}
-
-/* 
-overflow: hidden;
-  background-color: dimgrey;
-  display: inline;
-  text-decoration: none;
-
-nav, li {
-  float: left;
-}
-
-nav, li, a {
-  display: block;
-  color: white;
+  color: crimson;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
 }
 
-nav, li, a:hover {
+#cabecalho .navegacao li a:hover:not(.active) {
   background-color: silver;
-} */
+}
+
+.active {
+  background-color: #7a807d;
+}
 
 table, th, td {
   border: 1px solid crimson;
@@ -93,4 +85,10 @@ table, th, td {
 
 .tabela_de_licoes {
   width: 100%;
+}
+
+#rodape {
+  margin-left: 20px;
+  color: grey;
+  font-size: smaller;
 }
