@@ -19,7 +19,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  color:wheat;
+  color: wheat;
   font-size: 18px;
   text-align: center;
   width: 100%;
@@ -35,31 +35,32 @@ body {
 }
 
 #minha_foto {
-  height: 400x;
+  height: 400px;
   border-radius: 8px;
 }
 
-.conteudo_principal {
-/*   top: 150px;
+/* top: 150px;
   position: absolute; 
-  padding: 50px;*/
+  padding: 50px; iria ai abaixo> */
+
+.conteudo_principal {
   max-width: 1366px;
   margin: 80px auto 0 auto;
   width: 95%;
   display: flex;
   flex-wrap: wrap;
-  color:rgb(151, 76, 76)
+  color: rgb(151, 76, 76);
 }
 
-#cabecalho .navegacao ul{
+#cabecalho .navegacao ul { 
   list-style-type: none;
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background-color: #dddddd;
+  background-color: #ddd;
 }
 
-#cabecalho .navegacao li{
+#cabecalho .navegacao li {
   float: left;
 }
 
@@ -77,6 +78,16 @@ body {
 
 .active {
   background-color: #7a807d;
+}
+
+/*FAZER: continuar desde aqui */
+
+.conteudo_principal #lado_esquerdo {
+  margin-left: 800px;
+}
+
+.conteudo_principal #lado_direito {
+  margin-left: 1300px;
 }
 
 table, th, td {
