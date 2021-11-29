@@ -12,48 +12,67 @@ body {
   line-height: 1.5;
 }
 
-#cabecalho {
-  top: 0;
-  position: fixed;
-  width: 100%;
-  padding: 50px;
-  margin: 20 px;
-  background-color: steelblue;
-  color: wheat;
-  font-size: 13px;
-  text-align: center;
-  }
-
 #titulo {
   background-color: darksalmon;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  /*background-color: seagreen;*/
+  color:wheat;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
 }
 
 #meu_avatar {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50px;
+  width: 400px;
 }
 
-.conteudo_da_pagina {
-  top: 150px;
-  position: absolute;
-  width: 100%;
-  padding: 50px;
-  margin: 10px;
+#minha_foto {
+  height: 200x;
+  border-radius: 8px;
 }
 
-.navegacao {
+.conteudo_principal {
+/*   top: 150px;
+  position: absolute; 
+  padding: 50px;*/
+  max-width: 1366px;
+  margin: 80px auto 0 auto;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  color:rgb(151, 76, 76)
+}
+
+#cabecalho .navegacao ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  background-color: #dddddd;
+}
+
+#cabecalho .navegacao li{
+  float: left;
+}
+
+#cabecalho .navegacao li a {
+  display: block;
+  padding: 8px;
+}
+
+/* 
+overflow: hidden;
   background-color: dimgrey;
   display: inline;
   text-decoration: none;
-}
 
-/* nav, li {
+nav, li {
   float: left;
 }
 
