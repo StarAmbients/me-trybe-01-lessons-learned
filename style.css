@@ -8,7 +8,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(253, 251, 251);
   color: darkviolet;
-  font-size: 14;
+  font-size: 16;
   line-height: 1.5;
 }
 
@@ -45,7 +45,7 @@ body {
 
 .conteudo_principal {
   max-width: 1366px;
-  margin: 80px auto 0 auto;
+  margin: 130px auto 0 auto;
   width: 95%;
   display: flex;
   flex-wrap: wrap;
@@ -77,10 +77,8 @@ body {
 }
 
 .active {
-  background-color: #7a807d;
+  background-color: rgb(122, 128, 125);
 }
-
-/*FAZER: continuar desde aqui */
 
 .conteudo_principal #lado_esquerdo {
   margin-left: 800px;
@@ -90,7 +88,7 @@ body {
   margin-left: 1300px;
 }
 
-table, th, td {
+table th td {
   border: 1px solid crimson;
 }
 
@@ -102,4 +100,25 @@ table, th, td {
   margin-left: 20px;
   color: grey;
   font-size: smaller;
+}
+
+a:link {
+  color: rgb(213, 139, 120);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(141, 25, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(63, 189, 151);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(70, 105, 116);
+  background-color: transparent;
+  text-decoration: underline;
 }
