@@ -84,11 +84,11 @@ img {
   background-color: rgb(122, 128, 125);
 }
 
-.conteudo_principal #lado_esquerdo {
+.conteudo_principal .lado_esquerdo {
   margin-left: 800px;
 }
 
-.conteudo_principal #lado_direito {
+.conteudo_principal .lado_direito {
   margin-left: 1500px;
 }
 
